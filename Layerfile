@@ -15,7 +15,7 @@ RUN echo '<b>another file</b>' > another.html
 
 # This line copies the repository to /root in the runner
 COPY . .
-RUN Tepthon
+RUN webapp
 
 # Expose the webserver in the staging server as a secure link.
 # Whenever someone clicks the link, we'll load this staging server and forward
